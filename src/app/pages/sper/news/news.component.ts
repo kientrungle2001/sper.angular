@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './news.component.html',
   styleUrls: ['./news.component.css']
 })
-export class PageSperNewsComponent implements OnInit {
+export class SperPageNewsComponent implements OnInit {
 
   constructor() { }
 

@@ -24,8 +24,10 @@ import { SperDownloadSectionComponent } from './modules/sper/download/section/se
 import { SperPageHomeComponent } from './pages/sper/home/home.component';
 import { SperPageBlogComponent } from './pages/sper/blog/blog.component';
 import { SperPageBlogDetailComponent } from './pages/sper/blog/detail/detail.component';
-import { PageSperNewsComponent } from './pages/sper/news/news.component';
-import { PageSperNewsDetailComponent } from './pages/sper/news/detail/detail.component';
+import { SperPageNewsComponent } from './pages/sper/news/news.component';
+import { SperPageNewsDetailComponent } from './pages/sper/news/detail/detail.component';
+import { SperPageServiceDetailComponent } from './pages/sper/service/detail/detail.component';
+import { SperServiceDetailComponent } from './modules/sper/service/detail/detail.component';
 
 @NgModule({
   declarations: [
@@ -51,8 +53,10 @@ import { PageSperNewsDetailComponent } from './pages/sper/news/detail/detail.com
     SperPageHomeComponent,
     SperPageBlogComponent,
     SperPageBlogDetailComponent,
-    PageSperNewsComponent,
-    PageSperNewsDetailComponent
+    SperServiceDetailComponent,
+    SperPageNewsComponent,
+    SperPageNewsDetailComponent,
+    SperPageServiceDetailComponent
   ],
   imports: [
     BrowserModule,

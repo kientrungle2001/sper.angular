@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PageSperNewsDetailComponent } from './detail.component';
+import { SperPageNewsDetailComponent } from './detail.component';
 
-describe('PageSperNewsDetailComponent', () => {
-  let component: PageSperNewsDetailComponent;
-  let fixture: ComponentFixture<PageSperNewsDetailComponent>;
+describe('SperPageNewsDetailComponent', () => {
+  let component: SperPageNewsDetailComponent;
+  let fixture: ComponentFixture<SperPageNewsDetailComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PageSperNewsDetailComponent ]
+      declarations: [ SperPageNewsDetailComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PageSperNewsDetailComponent);
+    fixture = TestBed.createComponent(SperPageNewsDetailComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
