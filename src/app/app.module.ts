@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HelloComponent } from './modules/hello/hello.component';
 import { SperBannerTopComponent } from './modules/sper/banner/top/top.component';
 import { SperHeaderMenuComponent } from './modules/sper/header/menu/menu.component';
 import { SperAccountLoginComponent } from './modules/sper/account/login/login.component';
@@ -22,11 +21,13 @@ import { SperNewsBoardComponent } from './modules/sper/news/board/board.componen
 import { SperNewsDetailComponent } from './modules/sper/news/detail/detail.component';
 import { SperNewsFeaturedsComponent } from './modules/sper/news/featureds/featureds.component';
 import { SperDownloadSectionComponent } from './modules/sper/download/section/section.component';
+import { SperPageHomeComponent } from './pages/sper/home/home.component';
+import { SperPageBlogComponent } from './pages/sper/blog/blog.component';
+import { SperPageBlogDetailComponent } from './pages/sper/blog/detail/detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HelloComponent,
     SperBannerTopComponent,
     SperHeaderMenuComponent,
     SperAccountLoginComponent,
@@ -44,7 +45,10 @@ import { SperDownloadSectionComponent } from './modules/sper/download/section/se
     SperNewsBoardComponent,
     SperNewsDetailComponent,
     SperNewsFeaturedsComponent,
-    SperDownloadSectionComponent
+    SperDownloadSectionComponent,
+    SperPageHomeComponent,
+    SperPageBlogComponent,
+    SperPageBlogDetailComponent
   ],
   imports: [
     BrowserModule,

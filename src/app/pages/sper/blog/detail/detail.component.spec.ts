@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HelloComponent } from './hello.component';
+import { SperPageBlogDetailComponent } from './detail.component';
 
-describe('HelloComponent', () => {
-  let component: HelloComponent;
-  let fixture: ComponentFixture<HelloComponent>;
+describe('SperPageBlogDetailComponent', () => {
+  let component: SperPageBlogDetailComponent;
+  let fixture: ComponentFixture<SperPageBlogDetailComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ HelloComponent ]
+      declarations: [ SperPageBlogDetailComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(HelloComponent);
+    fixture = TestBed.createComponent(SperPageBlogDetailComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
